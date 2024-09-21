@@ -18,7 +18,8 @@ navbar-links:
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-    - Getting started: "getstarted" 
+    - Getting started: "getstarted"
+  Table Demo: "table-demo"
   Data Project: "Mexico-vs.-Australia"
   Author's home: ""
 
