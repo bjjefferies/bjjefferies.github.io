@@ -52,7 +52,7 @@ App dashboard. You will be able to…
 
 <br>
 
-![](Shiny%20App%20Codethrough%20image.png)
+![]({{site.url}}/assets/img/Shiny%20App%20Codethrough%20image.png)
 
 <br> <br>
 
@@ -162,7 +162,7 @@ plot(x = subcars$mpg,
      ylab = "Weight in Tons")
 ```
 
-![](Shiny-CodeThrough-Jefferies_files/figure-markdown_github/unnamed-chunk-4-1.png)
+![]({{site.url}}/assets/img/unnamed-chunk-4-1.png)
 
 **Note:** *You will want to play around and develop your plot in this
 other r script using hard coded variables first, make sure it works and
@@ -320,7 +320,7 @@ shinyApp(ui = ui, server = server)
 below. You can create this exact app following along with [Lisa
 Lendway’s video](https://www.youtube.com/watch?v=ak_NJCVrJXY)
 
-![](Babynames%20App.png)
+![]({{site.url}}/assets/img/Babynames%20App.png)
 
 ``` r
 library(shiny)
