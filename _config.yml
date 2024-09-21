@@ -20,7 +20,8 @@ navbar-links:
     - Learn markdown: "https://www.markdowntutorial.com/"
     - Getting started: "getstarted"
   Table Demo: "table-demo"
-  Data Project: "Mexico-vs.-Australia"
+  Data Project: 
+    - Income and Happiness in Mex/Aus: "2024-09-20-Mexico-vs-Australia"
 
 # --- Logo --- #
 
