@@ -11,4 +11,4 @@ My name is Ben Jefferies, from Flagstaff, Arizona.  Well, I'm actually <strong>f
 - Currently I'm working on my MS in Program Evaluation and Data Analytics at ASU.
 - I love generally being outside, but #1 is Rock Climbing
 
-![]({{site.url}}/assets/img/castleton-headshot.jpg)
+![]({{site.url}}/assets/img/castleton-headshot.JPG)
