@@ -20,7 +20,10 @@ navbar-links:
     - Learn markdown: "https://www.markdowntutorial.com/"
     - Getting started: "getstarted"
   Table Demo: "table-demo"
-  Data Project: "Mexico-vs.-Australia"
+  R Projects: 
+    - Income and Happiness in Mex/Aus: "2024-09-20-Mexico-vs-Australia"
+    - Shiny App Code Through: "2024-09-21-Shiny-CodeThrough"
+    - Monty Hall Problem Simulator: "https://bobodata.shinyapps.io/Monty_Hall_Simulator/"
 
 # --- Logo --- #
 
