@@ -14,7 +14,7 @@ author: Ben Jefferies
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "A math educator learning data science and loving it!"
+  About Me: "aboutme"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
