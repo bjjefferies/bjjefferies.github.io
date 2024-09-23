@@ -345,7 +345,7 @@ and controls for Mexico as a variable:
 
 <center>
   
-$$Happiness = b_0 + b_1 /cdot Income + b_2 /cdot Mexico + b_3 /cdot Mex:Income$$
+$$Happiness = b_0 + b_1 \cdot Income + b_2 \cdot Mexico + b_3 \cdot Mex:Income$$
 
 </center>
 
