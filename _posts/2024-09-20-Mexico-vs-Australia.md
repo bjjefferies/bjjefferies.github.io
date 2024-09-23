@@ -212,10 +212,6 @@ $$Happiness = b_0 + b_1 \cdot Income$$
 
 </center>
 
-$$\begin{aligned}
-E = mc^2
-\end{aligned}$$
-
 <br>
 
 ### Mexico
@@ -348,7 +344,9 @@ The mathematical model we now look at takes Australia as the baseline
 and controls for Mexico as a variable:
 
 <center>
-*H**a**p**p**i**n**e**s**s* = *b*<sub>0</sub> + *b*<sub>1</sub> ⋅ *I**n**c**o**m**e* + *b*<sub>2</sub> ⋅ *M**e**x**i**c**o* + *b*<sub>3</sub> ⋅ *M**e**x* : *I**n**c**o**m**e*
+  
+$$Happiness = b_0 + b_1 /cdot Income + b_2 /cdot Mexico + b_3 /cdot Mex:Income$$
+
 </center>
 
 **Results:** As can be read below, the interaction term’s coefficient
