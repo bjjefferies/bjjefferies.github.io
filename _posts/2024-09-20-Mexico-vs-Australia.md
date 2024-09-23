@@ -207,8 +207,14 @@ in happiness. The model run describes the following mathematical
 relationship:
 
 <center>
+  
 $$Happiness = b_0 + b_1 \cdot Income$$
+
 </center>
+
+$$\begin{aligned}
+E = mc^2
+\end{aligned}$$
 
 <br>
 
