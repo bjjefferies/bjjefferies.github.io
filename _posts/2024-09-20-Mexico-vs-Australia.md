@@ -207,7 +207,7 @@ in happiness. The model run describes the following mathematical
 relationship:
 
 <center>
-*H**a**p**p**i**n**e**s**s* = *b*<sub>0</sub> + *b*<sub>1</sub> ⋅ *I**n**c**o**m**e*
+$$Happiness = b_0 + b_1 \cdot Income$$
 </center>
 
 <br>
