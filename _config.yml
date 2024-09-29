@@ -15,11 +15,11 @@ author: Ben Jefferies
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-    - Getting started: "getstarted"
-  Table Demo: "table-demo"
+ #  Resources:
+    #- Beautiful Jekyll: "https://beautifuljekyll.com"
+    #- Learn markdown: "https://www.markdowntutorial.com/"
+    #- Getting started: "getstarted"
+  # Table Demo: "table-demo"
   R Projects: 
     - CKANR Tutorial: "2024-09-29-CKANR-tutorial"
     - Income and Happiness in Mex/Aus: "2024-09-20-Mexico-vs-Australia"
