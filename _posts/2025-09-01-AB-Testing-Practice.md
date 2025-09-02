@@ -89,8 +89,7 @@ pre_post_agg_tbl %>%
   theme(legend.position = "none")
 ```
 
-
-<img src="{{site.url}}/assets/img/unnamed-chunk-3-1.png"
+![]({{site.url}}/assets/img/unnamed-chunk-3-1.png)
 
 
 
