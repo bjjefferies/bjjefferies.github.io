@@ -22,6 +22,7 @@ navbar-links:
   # Table Demo: "table-demo"
   R Projects: 
     - CKANR Tutorial: "2024-09-29-CKANR-tutorial"
+    - AB Testing: "2025-09-01-AB-Testing-Practice"
     - Income and Happiness in Mex/Aus: "2024-09-20-Mexico-vs-Australia"
     - Shiny App Code Through: "2024-09-21-Shiny-CodeThrough"
     - Monty Hall Problem Simulator: "https://bobodata.shinyapps.io/Monty_Hall_Simulator/"
