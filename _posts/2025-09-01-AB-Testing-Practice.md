@@ -33,15 +33,8 @@ campaign was implemented and data from during the campaign (pre/post).
 dat <- read_csv(file = "https://raw.githubusercontent.com/business-science/free_r_tips/refs/heads/master/073_ab_testing_infer/data/hotel_bookings_geo_experiment.csv")
 ```
 
-    ## Rows: 9225 Columns: 8
-    ## ── Column specification ────────────────────────────────────────────────────────
-    ## Delimiter: ","
-    ## chr  (1): assignment
-    ## dbl  (6): geo, geo_group, period, treatment, bookings, cost
-    ## date (1): date
-    ## 
-    ## ℹ Use `spec()` to retrieve the full column specification for this data.
-    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+
 
 ## Visualize the Experiment
 
@@ -96,15 +89,10 @@ pre_post_agg_tbl %>%
   theme(legend.position = "none")
 ```
 
-    ## Warning: The `facets` argument of `facet_grid()` is deprecated as of ggplot2 2.2.0.
-    ## ℹ Please use the `rows` argument instead.
-    ## This warning is displayed once every 8 hours.
-    ## Call `lifecycle::last_lifecycle_warnings()` to see where this warning was
-    ## generated.
-
-    ## `geom_smooth()` using method = 'loess' and formula = 'y ~ x'
 
 <img src="{{site.url}}/assets/img/unnamed-chunk-3-1.png"
+
+
 
 ## Statistical Testing
 
@@ -120,7 +108,7 @@ The results in the below table show the following:
     period.
 
 -   The result is just on the cusp of the standard cutoff for
-    statistical significance (p \< 0.05). In this case the p-value is
+    statistical significance (p < 0.05). In this case the p-value is
     0.055. We can still maintain greater than 90% confidence that the
     effect of the Adspend campaing was not random. There is very little
     risk that the Adspend campaign would have negative effects (modeled
@@ -151,21 +139,23 @@ two_sided_t_test %>% pander::pander()
 |:---------:|:----:|:-------:|:-----------:|:--------:|:--------:|:--------:|
 |   1.923   | 2703 | 0.05453 |  two.sided  |  96.22   |  -1.872  |  194.3   |
 
+
+
 ### Return on Investment
 
 Here we compare the cost of the Ad campaign with the increased revenue
 it generated. Our dataset contained 50 geographic units in the treatment
 group and 50 in the control group each day. To estimate the total
 revenue generated we can take that figure, multiplied by our treatment
-effect (increase of \\96.20 in bookings per day) to arrive at a total
-daily increase in revenue for the company of \\4,810 per day.
+effect (increase of $96.20 in bookings per day) to arrive at a total
+daily increase in revenue for the company of $4,810 per day.
 
-The cost of the Ad campaign varied daily, but came out to \\50,000 over
+The cost of the Ad campaign varied daily, but came out to $50,000 over
 the course of the month long experiment, for an average cost of
-\\1,612.90 per day. We can measure the Return on Investment for the
-Adspend campaign by dividing those daily figures. The ROI is \\2.98,
+$1,612.90 per day. We can measure the Return on Investment for the
+Adspend campaign by dividing those daily figures. The ROI is $2.98,
 meaning that for each dollar spent on Adspend we expect to see a return
-of nearly \\3.00 in revenue.
+of nearly $3.00 in revenue.
 
 ``` r
 50 * 96.2
@@ -185,6 +175,8 @@ sum(dat_experiment_dates$cost) / 31
 ```
 
     ## [1] 2.983871
+
+
 
 ## Conclusion
 
